@@ -1,15 +1,20 @@
 class Main {
   public static void main(String[] args) {
-    
-    int i=0;
-    while(i<5){ 
-      i++;
-       System.out.print("-");
-      for(int y=6;y>i;y--)
+    int w=4;
+    int c=3;
+  for(int i=0;i<c;i++){
+    for(int y=1;y<=w;y++){
+      for(int z=0;z<w-y;z++)
+        {
+          System.out.print(" ");
+        }
+    for(int k=0;k<y;k++)
+      {
         System.out.print("*");
-        System.out.println();
-
+      }
+      System.out.println("");
       }
     }
-    
-  }
+    }
+}
+     
