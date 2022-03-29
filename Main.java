@@ -4,7 +4,8 @@ class Main {
     int i=0;
     while(i<5){ 
       i++;
-      for(int y=0;y<i;y++)
+       System.out.print("-");
+      for(int y=6;y>i;y--)
         System.out.print("*");
         System.out.println();
 
